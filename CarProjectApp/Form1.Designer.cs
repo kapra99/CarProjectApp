@@ -348,37 +348,44 @@ namespace CarProjectApp
             // 
             // BtnAdd
             // 
+            this.BtnAdd.BackColor = System.Drawing.Color.LawnGreen;
             this.BtnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnAdd.Location = new System.Drawing.Point(417, 192);
+            this.BtnAdd.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BtnAdd.Location = new System.Drawing.Point(417, 188);
             this.BtnAdd.Name = "BtnAdd";
-            this.BtnAdd.Size = new System.Drawing.Size(138, 51);
+            this.BtnAdd.Size = new System.Drawing.Size(138, 55);
             this.BtnAdd.TabIndex = 32;
             this.BtnAdd.Text = "Добави автомобил";
-            this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAdd.UseVisualStyleBackColor = false;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // BtnUpdate
             // 
+            this.BtnUpdate.BackColor = System.Drawing.Color.Yellow;
             this.BtnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUpdate.Enabled = false;
+            this.BtnUpdate.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.BtnUpdate.Location = new System.Drawing.Point(417, 263);
             this.BtnUpdate.Name = "BtnUpdate";
             this.BtnUpdate.Size = new System.Drawing.Size(138, 54);
             this.BtnUpdate.TabIndex = 33;
             this.BtnUpdate.Text = "Промени автомобил";
-            this.BtnUpdate.UseVisualStyleBackColor = true;
+            this.BtnUpdate.UseVisualStyleBackColor = false;
             this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
             // 
             // BtnDelete
             // 
+            this.BtnDelete.BackColor = System.Drawing.Color.Red;
             this.BtnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnDelete.Enabled = false;
+            this.BtnDelete.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ErrorNudCubic.SetIconAlignment(this.BtnDelete, System.Windows.Forms.ErrorIconAlignment.MiddleLeft);
             this.BtnDelete.Location = new System.Drawing.Point(417, 337);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(138, 55);
             this.BtnDelete.TabIndex = 34;
             this.BtnDelete.Text = "Изтрий автомобил";
-            this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.UseVisualStyleBackColor = false;
             this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // CheckBoxAC
@@ -520,13 +527,15 @@ namespace CarProjectApp
             // 
             // BtnClrForm
             // 
+            this.BtnClrForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.BtnClrForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnClrForm.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.BtnClrForm.Location = new System.Drawing.Point(417, 407);
             this.BtnClrForm.Name = "BtnClrForm";
             this.BtnClrForm.Size = new System.Drawing.Size(138, 59);
             this.BtnClrForm.TabIndex = 43;
             this.BtnClrForm.Text = "Изчисти формата";
-            this.BtnClrForm.UseVisualStyleBackColor = true;
+            this.BtnClrForm.UseVisualStyleBackColor = false;
             this.BtnClrForm.Click += new System.EventHandler(this.BtnClrForm_Click);
             // 
             // Form1
